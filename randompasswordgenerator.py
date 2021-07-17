@@ -28,7 +28,10 @@ for i in range(int(numbers)):
     #print(number)
     password_list.append(number)
 #print(password_list)
+random.shuffle(password_list)
+
 password = ''.join(password_list)
+
 print('Your password is ' + password)
 #password_list = random.shuffle(password_list)
 #print(password_list)
